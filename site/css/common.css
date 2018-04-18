@@ -1,0 +1,41 @@
+/*プラウザスタイルのリセット*/
+
+*{
+	margin :0;
+	padding :0;
+}
+
+/*画像の下の余白を無くす*/
+
+img{
+	vertical-align:middle;
+}
+
+/*ボタンの●を無くす。ほしいところだけ指定するようにしよう。*/
+
+li{
+	list-style-type:none;
+}
+
+/*ハイパーテキストリンク*/
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+hr{
+	margin-bottom:5px;
+	
+}
+/*clearfix*/
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
